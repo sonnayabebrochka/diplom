@@ -1,12 +1,12 @@
 const openPopUp = document.getElementById('open_pop_up')
 const closePopUp = document.getElementById('pop_up_close')
-const popUp = document.getElementById('pop_up')
-
-openPopUp.addEventListener('click', function(e){
-	e.preventDefault();
+const popUp = document.querySelector('#pop_up')
+ 
+openPopUp.addEventListener('click', function(event){
 	popUp.classList.add('active');
+ 
 })
 
-openPopUp.addEventListener('click', () => {
+closePopUp.addEventListener('click', () => {
 	popUp.classList.remove('active');
-})с
+})
