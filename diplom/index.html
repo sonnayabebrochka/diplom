@@ -1,45 +1,49 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>diplom</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-<div class="sign_in">
-	<div class="button">
-		<a href="#" id="open_pop_up">Войти</a>
-	</div>
-	<div class="pop_up" id="pop_up">
-		<div class="pop_up_container">
-			<div class="pop_up_body" id="pop_up_body">
-				<h1>Авторизация</h1>
-				<div class="login">
-					<form action="">
-						<p>Логин</p>
-						<input type="text">
+	<div class="sign_in">
+		<div class="button">
+			<a href="#" id="open_pop_up">Войти</a>
+		</div>
+
+		<div class="pop_up" id="pop_up">
+			<div class="pop_up_container">
+				<div class="pop_up_body" id="pop_up_body">
+					<h1>Авторизация</h1>
+					<form action="#" id="auth" name="auth">
+						<div class="login">
+							<label for="login">Логин</label>
+							<input type="text" id="login" name="login">
+						</div>
+						<div class="password">
+
+							<label for="password">Пароль</p>
+								<input type="password" id="password" name="password">
+								<img src="img/Hide.svg">
+
+						</div>
+						<a href="#"><button>Войти</button></a>
+						<div class="pop_up_close" id="pop_up_close">&#10006</div>
 					</form>
 				</div>
-				<div class="password">
-					<form action="">
-						<p>Пароль</p>
-						<input type="password">
-						<img src="img/Hide.svg">
-					</form>
-				</div>
-				<a href="#"><button>Войти</button></a>
-				<div class="pop_up_close" id="pop_up_close">&#10006</div>
 			</div>
 		</div>
+
 	</div>
-</div>
-<script src="js/main.js"></script>
+	
 </body>
+<script src="js/main.js"></script>
 </html>
-как сделать отсутп у вводимого теста в инпуте (через паддинги не получилось)?
-как можно скрыть или показать пароль при вводе (с помощью картинки глаза)?
-картинка глаза не по середине, относительно вертикали и пароля - как исправить?
+ 
